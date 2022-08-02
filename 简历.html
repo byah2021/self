@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>简历</title>
+<style type="text/css">
+	.p1{
+		color:#F0A304;
+		margin:100px auto;
+		text-align: center;
+		font-size: 36px;
+	}
+	
+	ul{
+	list-style-type:none;
+	margin-top:100px;
+	margin-left: 29%;
+	padding:0;
+	overflow:hidden;
+}
+    li a{
+	float:left;
+}
+    a:link,a:visited{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#D47778;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+}
+    a:hover,a:active{
+	background-color:#6F0D0E;
+}
+
+	#table1{
+		padding: 70px 0;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		color:black;
+	}
+	#submit{
+		margin:20px auto;
+		display: block;
+	}
+
+	</style>
+</head>
+
+<body bgcolor="#C76264">
+	<div class="box1">
+	<ul>
+		<li><a href="index.html" target="_blank">首页</a></li>
+		<li><a href="相册.html" target="_blank">相册</a></li>
+		<li><a href="动态.html" target="_blank">动态</a></li>
+		<li><a href="音乐.html" target="_blank">音乐</a></li>
+		<li><a href="#" target="_self">简历</a></li>
+		</ul>
+	</div>
+	<p class="p1">个人简历</p>
+	<table id="table1">
+		<tr><td>姓名</td><td><input type="text" name="姓名"></td>
+			<td>年龄 <input type="text" style="width:190px" placeholder="请填写一个大于1小于140的数值" name="年龄" min="1" max="139" /></td>
+			<td>籍贯</td><td><input type="text" name="籍贯"></td>
+		</tr>
+		
+		<tr><td>曾经担任过</td><td><input type="text" name="职务"></td>
+			<td>个人身份</td><td><input type="text" name="身份"></td>
+			<td>身份证号码</td><td><input type="text" maxlength="18" name="身份证号码"></td>
+		</tr>
+		
+		<tr><td>性别</td><td><select><option>男</option>
+			<option>女</option></select></td>
+			<td></td><td></td>
+			<td></td><td></td>
+		</tr>
+		</table>
+	<input id="submit" type="submit" value="提交" onClick="alert('提交成功')">
+	<form action="Untitled-2.html" method="get" class="tjpl"></form>
+</body>
+</html>
